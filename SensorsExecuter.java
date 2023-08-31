@@ -3,8 +3,8 @@ class SensorsExecuter{
 	
 	public static void main(String args[]){
 		
-		Sensors sense = new Sensors();
-		sense.sensorId=1;
+		Sensors sense = new Sensors(1,"motion sensor","220 volts","wall mount",3000,false);
+		/*sense.sensorId=1;
 		sense.sensorType="motion sensor";
 		sense.sensorSupply="220 volts";
 		sense.sensorMount="wall mount";
@@ -19,11 +19,11 @@ class SensorsExecuter{
 		System.out.println("The sensor price is "+sense.sensorPrice);
 		System.out.println("The sensor works or not "+sense.sensorworksornot);
 		
-		sense.sensorCondition2();
+		sense.sensorCondition2();*/
 		
-		Sensors sense1 = new Sensors();
+		Sensors sense1 = new Sensors(2,"Light sensor","220 volts","Floor Mount",4000,true);
 		
-		sense1.sensorId=2;
+		/*sense1.sensorId=2;
 		sense1.sensorType="Light sensor";
 		sense1.sensorSupply="220 volts";
 		sense1.sensorMount="Floor Mount";
@@ -38,7 +38,7 @@ class SensorsExecuter{
 		System.out.println("The sensor price is "+sense1.sensorPrice);
 		System.out.println("The sensor works or not "+sense1.sensorworksornot);
 		
-		sense.sensorCondition2();
+		sense.sensorCondition2();*/
 	
 
 		
