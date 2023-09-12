@@ -1,0 +1,7 @@
+class HP extands laptop{
+
+
+
+
+
+}
