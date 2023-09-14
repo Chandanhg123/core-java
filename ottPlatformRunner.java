@@ -4,10 +4,13 @@ class ottPlatformRunner{
    
    ottPlatform ott = new ottPlatform();
    
-   ott.getMovie("Kgf","Abani");
+   ott.addMovieName("Kgf");
+   ott.addMovieName("Katera");
+   ott.addMovieName("Virat");
+   ott.addMovieName("Ugram");
    
    
-   
+   ott.getmovie();
    }
 
 
